@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MohammedNiyas.nf-Resume</title>
+<meta name="description" content>
+<meta name="keywords" content>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet">
+
+<link rel="stylesheet" href="{% static 'assets/css/glitche-basic.css' %}" />
+<link rel="stylesheet" href="{% static 'assets/css/ionicons.css' %}" />
+<link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}" />
+<link rel="stylesheet" href="{% static 'assets/css/animate.css' %}" />
+<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+<link rel="stylesheet" href="{% static 'assets/css/custom.css' %}" />
+<link rel="stylesheet" href="{% static 'assets/css/skills.css' %}" />
+
+<link rel="stylesheet" href="{% static 'assets/css/dark.css' %}" />
+
+<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+</head>
+<body>
+
+	<div class="preloader flex items-center justify-center h-screen">
+		<div class="centrize">
+			<div class="vertical-center">
+				<div class="pre-inner text-center">
+					<div class="load typing-load"><p>loading...</p></div>
+					<span class="typed-load"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+
+<header class="fixed left-0 top-[30px] w-full z-[100] text-right bg-white opacity-100 visible">
+<div class="head-top px-[65px] pt-[30px] pb-[15px]">
+<a href="#" class="menu-btn"><span></span></a>
+<div class="top-menu">
+<ul>
+<li class="ml-[50px] inline-block align-top"><a href="{% url 'home' %}" class="lnk block mt-[12px]">Home</a></li>
+<li class="ml-[50px] inline-block align-top"><a href="{% url 'resume' %}" class="lnk block mt-[12px]">Resume</a></li>
+<li class="active ml-[50px] inline-block align-top"><a href="{% url 'portfolio' %}" class="lnk block mt-[12px]">Portfolio</a></li>
+<li class="ml-[50px] inline-block align-top"><a href="{% url 'contacts' %}" class="btn mt-0">Contacts</a></li>
+</ul>
+</div>
+</div>
+</header>
+
+<div class="wrapper">
+
+	<div class="section started relative z-[97] opacity-100 visible text-center p-0 m-0 wrapper flex justify-center items-center h-screen">
+<div class="centrize full-width">
+<div class="vertical-center">
+<div class="started-content inline-block align-middle text-center relative">
+<div class="h-title text-[68px] font-roboto text-[#141414] font-bold uppercase tracking-[0.04em] mx-0 mt-[10px] mb-[5px] glitch-effect" data-text="Portfolio">Portfolio</div>
+<div class="h-subtitle typing-bread text-[13px]">
+<p><a href="{% url 'home' %}">Home</a> / <span class="text-extra-color">Portfolio</span></p>
+</div>
+<span class="typed-bread"></span>
+</div>
+</div>
+</div>
+<a href="#" class="mouse_btn text-[24px] text-extra-color text-center absolute w-[20px] h-[40px] left-1/2 bottom-[80px] ml-[-10px]"><span class="ion ion-mouse relative top-0"></span></a>
+</div>
+
+<div class="section works relative z-[97] px-[80px] pt-0 pb-[150px] opacity-100 visible">
+<div class="content relative">
+<div class="box-items portfolio-items relative overflow-hidden ml-[-3%]">
+
+<div class="box-item f-gallery w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
+<div class="image relative">
+<a href="https://github.com/Blur141" class="has-popup-gallery block text-[0]">
+<img class="w-full h-auto relative top-0" src="{% static 'D:\My projects\Portfolio\portfolio\portfolio\static\assets\images\works\work1.png' %}" alt />
+</a>
+</div>
+<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
+<a href="https://github.com/Blur141" class="name has-popup-gallery h-[40px] block text-[#363636] text-[13px] font-bold">Portfolio</a>
+</div>
+</div>
+
+<div class="box-item f-gallery w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
+	<div class="image relative">
+	<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="has-popup-gallery block text-[0]">
+	<img class="w-full h-auto relative top-0" src="{% static 'D:\My projects\Portfolio\portfolio\portfolio\static\assets\images\works\work2.png' %}" alt />
+	</a>
+	</div>
+	<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
+	<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="name has-popup-gallery h-[40px] block text-[#363636] text-[13px] font-bold">ToDo</a>
+	</div>
+	</div>
+
+
+<!-- 	<div class="box-item f-gallery w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
+		<div class="image relative">
+		<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="has-popup-gallery block text-[0]">
+		<img class="w-full h-auto relative top-0" src="{% static 'D:\My projects\Portfolio\portfolio\portfolio\static\assets\images\works\work2.png' %}" alt />
+		</a>
+		</div>
+		<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
+		<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Gallery</div>
+		<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="name has-popup-gallery h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Canvas Tote Bag</a>
+		</div>
+		</div>
+
+
+		<div class="box-item f-gallery w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
+			<div class="image relative">
+			<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="has-popup-gallery block text-[0]">
+			<img class="w-full h-auto relative top-0" src="{% static 'D:\My projects\Portfolio\portfolio\portfolio\static\assets\images\works\work2.png' %}" alt />
+			</a>
+			</div>
+			<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
+			<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Gallery</div>
+			<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="name has-popup-gallery h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Canvas Tote Bag</a>
+			</div>
+			</div>
+
+
+			<div class="box-item f-gallery w-[30.333333%] mt-0 mr-0 mb-[3%] ml-[3%] relative overflow-hidden text-center">
+				<div class="image relative">
+				<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="has-popup-gallery block text-[0]">
+				<img class="w-full h-auto relative top-0" src="{% static 'D:\My projects\Portfolio\portfolio\portfolio\static\assets\images\works\work2.png' %}" alt />
+				</a>
+				</div>
+				<div class="desc relative pt-[15px] pb-[5px] px-[45px]">
+				<div class="category mt-0 mx-0 mb-[10px] inline-block text-[11px] text-[#363636] uppercase tracking-[0.04em]">Gallery</div>
+				<a href="https://github.com/Blur141/ToDo-using-HTML-Tailwind-CSS-and-JS.git" class="name has-popup-gallery h-[40px] block text-[#363636] text-[13px] font-bold uppercase">Canvas Tote Bag</a>
+				</div>
+				</div> -->
+	
+	
+
+				</div>
+				<div class="clear"></div>
+				</div>
+				</div>
+				</div>
+
+<footer class="fixed bottom-[25px] left-0 px-[60px] pt-[15px] pb-[30px] w-full bg-white z-[100] opacity-100 visible">
+	<div class="cursor"></div>
+<div class="cursor2"></div>
+<div class="soc float-right">
+	<a class="inline-block align-middle ml-[12px]" target="_blank" href="https://github.com/Blur141"><span class="ion ion-social-github text-[17px] text-[#363636]"></span></a>
+</div>
+<div class="copy float-left pt-[2px] text-[11px] text-[#999]">Mohammed Niyas NF</div>
+<div class="clr"></div>
+</footer>
+
+<div class="line top"></div>
+<div class="line bottom"></div>
+<div class="line left"></div>
+<div class="line right"></div>
+</div>
+
+
+
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+
+<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.validate.js' %}"></script>
+<script src="{% static 'assets/js/typed.js' %}"></script>
+<script src="{% static 'assets/js/magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/imagesloaded.pkgd.js' %}"></script>
+<script src="{% static 'assets/js/isotope.pkgd.js' %}"></script>
+
+<script src="{% static 'assets/js/glitche-scripts.js' %}"></script>
+</body>
+
+</html>
