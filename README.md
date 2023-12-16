@@ -20,6 +20,7 @@ The portfolio website consists of multiple pages:
 - **Resume Details**: Detailed information about my skills, languages known, and professional background.
 - **Portfolio Showcase**: Highlights my various projects with descriptions and relevant details.
 - **Contact Information**: Provides ways for visitors to contact me for inquiries or collaborations.
+- **Custom Cursor**: Implemented a custom cursor for enhanced visual experience.
 
 ## Technologies Used
 
