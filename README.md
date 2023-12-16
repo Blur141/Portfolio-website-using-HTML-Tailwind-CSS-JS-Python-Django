@@ -28,7 +28,6 @@ The portfolio website consists of multiple pages:
 - [Tailwind CSS]
 - JavaScript
 - [Django]
-- Other libraries/frameworks as needed
 
 ## Screenshots
 
